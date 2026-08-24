@@ -22,15 +22,15 @@ icon.onclick = function() {
 
     // Αλλάζει τα εικονίδια ανάλογα με το theme
     if (document.body.classList.contains("dark-theme")) {
-        icon.src = "/Images/sun.png";                                                               // Αλλάζει το εικονίδιο του κουμπιού σε ήλιο για το dark theme
-        uni_logo.src = "/Images/uth_logo.png";                                                      // Αλλάζει το λογότυπο του πανεπιστημίου στο dark theme
-        quiz_logo.src = "/Images/quiz-logo2.png";                                                   // Αλλάζει το λογότυπο του quiz στο dark theme
-        github_logo.src = "/Images/Github2.png"                                                     // Αλλάζει το λογότυπο του github στο dark theme
+    icon.src = "./Images/sun.png";
+    uni_logo.src = "./Images/uth_logo.png";
+    quiz_logo.src = "./Images/quiz-logo2.png";
+    github_logo.src = "./Images/Github2.png";
     } else {
-        icon.src = "/Images/moon.png";                                                              // Επαναφέρει το εικονίδιο του κουμπιού σε φεγγάρι για το light theme
-        uni_logo.src = "/Images/uth_logo_original.png";                                             // Επαναφέρει το λογότυπο του πανεπιστημίου στο light theme
-        quiz_logo.src = "/Images/quiz-logo1.png";                                                   // Επαναφέρει το λογότυπο του quiz στο light theme
-        github_logo.src = "/Images/Github.png"                                                      // Αλλάζει το λογότυπο του github στο light theme
+        icon.src = "./Images/moon.png";
+        uni_logo.src = "./Images/uth_logo_original.png";
+        quiz_logo.src = "./Images/quiz-logo1.png";
+        github_logo.src = "./Images/Github.png";
     }
 }
 
